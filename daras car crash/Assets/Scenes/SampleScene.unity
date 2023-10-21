@@ -756,7 +756,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _fronttireRB: {fileID: 920365386}
   _backtireRB: {fileID: 983413453}
+  _carRB: {fileID: 858699502}
   _speed: 150
+  _rotationSpeed: 300
 --- !u!1 &920365383
 GameObject:
   m_ObjectHideFlags: 0
