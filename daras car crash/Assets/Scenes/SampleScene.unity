@@ -1443,6 +1443,7 @@ GameObject:
   - component: {fileID: 1028872381}
   - component: {fileID: 1028872380}
   - component: {fileID: 1028872379}
+  - component: {fileID: 1028872382}
   m_Layer: 0
   m_Name: driver-head
   m_TagString: Untagged
@@ -1578,6 +1579,18 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0.06667143}
   serializedVersion: 2
   m_Radius: 0.25332856
+--- !u!114 &1028872382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1028872376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbd1adcf6ff446b4081e8022870b67db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1118539616
 GameObject:
   m_ObjectHideFlags: 0
@@ -1771,7 +1784,7 @@ GameObject:
   - component: {fileID: 1924729377}
   m_Layer: 0
   m_Name: ground
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
